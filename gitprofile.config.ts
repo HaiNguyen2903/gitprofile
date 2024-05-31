@@ -19,13 +19,16 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['HaiNguyen2903/Banking_Customer_Segmentation', 
+                  'HaiNguyen2903/Car-Purchasing-Customer-Classification',
+                  'HaiNguyen2903/Telecom_Customer_Understanding',
+                  'HaiNguyen2903/MOT_Human_Tracking_DeepSORT'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -80,20 +83,17 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'SQL',
+    'Docker', 
+    'Wandb', 
+    'Git', 
+    'Scikitlearn',
+    'Pytorch', 
+    'Tensorflow',
+    'Computer Vision', 
+    'Natural Language Processing', 
+    'Deep Learning',
   ],
   experiences: [
     {

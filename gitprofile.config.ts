@@ -40,7 +40,7 @@ const CONFIG = {
           description:
             'A story-telling project with advanced Tableau visualizations for NSW Road Maintenance Optimization',
           imageUrl:
-            'figures/nsw_traffic_thumbnail.png',
+            '',
           link: 'https://medium.com/@harry_nguyen_/nsw-traffic-analysis-for-road-maintenance-optimization-218f2c81f355',
         },
       ],
@@ -72,7 +72,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1V-zYVkk97W_kEyXs_LIwgpPIO2_dlmQQ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',

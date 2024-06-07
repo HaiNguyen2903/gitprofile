@@ -43,6 +43,14 @@ const CONFIG = {
             '',
           link: 'https://medium.com/@harry_nguyen_/nsw-traffic-analysis-for-road-maintenance-optimization-218f2c81f355',
         },
+        {
+          title: 'Data Science Job Salaries Analysis 2024',
+          description:
+            'A comprehensive look at the data science job market in the first quarter of 2024.',
+          imageUrl:
+            '',
+          link: 'https://medium.com/@harry_nguyen_/data-science-job-salaries-analysis-2024-d8d96cfe16e8',
+        },
       ],
     },
   },
